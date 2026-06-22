@@ -68,6 +68,19 @@ Or pass a PR number directly:
 
 The skill resolves the PR, dispatches an agent to generate the walkthrough JSON, uploads it to the Difftrail app, and prints the published URL.
 
+## Releasing
+
+Releases are automated with [Changesets](https://github.com/changesets/changesets):
+
+1. With your change, add a changeset describing it:
+   ```
+   npm run changeset
+   ```
+   Pick a bump (`patch`/`minor`/`major`) and write a short summary. Commit the generated `.changeset/*.md` file alongside your change.
+2. Merge to `main`. The **Release** workflow then bumps `package.json`, syncs the new version into `plugin.json` + `marketplace.json`, updates `CHANGELOG.md`, commits, tags `vX.Y.Z`, and publishes a GitHub Release.
+
+No manual version edits — the workflow owns versioning. PRs without a changeset merge fine; they just don't trigger a release.
+
 ## License
 
 MIT
