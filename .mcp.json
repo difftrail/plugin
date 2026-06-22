@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "difftrail": {
+      "type": "http",
+      "url": "https://difftrail.haldunanil.com/api/mcp"
+    }
+  }
+}

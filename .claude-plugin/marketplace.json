@@ -1,0 +1,16 @@
+{
+  "$schema": "https://claude.ai/schemas/marketplace.json",
+  "name": "difftrail",
+  "description": "Marketplace for the Difftrail agent plugin — PR walkthroughs published to the hosted Difftrail app.",
+  "owner": { "name": "Haldun Anil" },
+  "plugins": [
+    {
+      "name": "difftrail",
+      "source": { "source": "url", "url": "https://github.com/difftrail/plugin.git" },
+      "version": "0.1.0",
+      "description": "PR walkthroughs published to the hosted Difftrail app",
+      "repository": "https://github.com/difftrail/plugin",
+      "license": "MIT"
+    }
+  ]
+}
