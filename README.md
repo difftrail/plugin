@@ -46,7 +46,7 @@ The `difftrail` server should appear as **connected** in `/mcp`, and `pr-walkthr
 
 ## Authentication
 
-The first time the `upload_walkthrough` tool is called (e.g. when you run `/pr-walkthrough`), Claude Code opens a browser window. Sign in with GitHub via Clerk and click **Allow**. Claude Code stores the OAuth token automatically — you won't be prompted again unless it expires or you revoke access.
+The first time the `upload_walkthrough` tool is called (e.g. when you run `/pr-walkthrough`), Claude Code opens a browser window. Sign in with GitHub via SSO and click **Allow**. Claude Code stores the OAuth token automatically — you won't be prompted again unless it expires or you revoke access.
 
 **Authenticate manually (optional).** You don't have to wait for the first tool call. Run `/mcp`, select the **difftrail** server, and choose **Authenticate** — Claude Code opens the same browser sign-in flow on demand.
 
