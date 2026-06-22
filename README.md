@@ -46,7 +46,7 @@ The `difftrail` server should appear as **connected** in `/mcp`, and `pr-walkthr
 
 ## Authentication
 
-No token to copy. The first time the `upload_walkthrough` tool is called (e.g. when you run `/pr-walkthrough`), Claude Code opens a browser window. Sign in with GitHub via Clerk and click **Allow**. Claude Code stores the OAuth token automatically — you won't be prompted again unless it expires or you revoke access.
+The first time the `upload_walkthrough` tool is called (e.g. when you run `/pr-walkthrough`), Claude Code opens a browser window. Sign in with GitHub via Clerk and click **Allow**. Claude Code stores the OAuth token automatically — you won't be prompted again unless it expires or you revoke access.
 
 **Grant repository access.** Difftrail reads your PR's diff from GitHub _as you_, so when you connect GitHub you must grant **repository access** (the `repo` scope) — this is required for **private** repos.
 
