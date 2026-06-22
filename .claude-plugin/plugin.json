@@ -2,11 +2,17 @@
   "$schema": "https://claude.ai/schemas/plugin.json",
   "name": "difftrail",
   "description": "Generate a PR walkthrough locally and publish it to the hosted Difftrail app.",
-  "version": "0.1.0",
-  "author": { "name": "Haldun Anil" },
+  "version": "0.1.1",
+  "author": {
+    "name": "Haldun Anil"
+  },
   "repository": "https://github.com/difftrail/plugin",
   "license": "MIT",
-  "keywords": ["code-review", "pull-request", "walkthrough"],
+  "keywords": [
+    "code-review",
+    "pull-request",
+    "walkthrough"
+  ],
   "auth": {
     "required": true,
     "type": "oauth2.1",
