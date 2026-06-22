@@ -21,7 +21,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # PAT (org admin) so the release commit/tag push bypasses main's "require PR"
+          # ruleset — the default GITHUB_TOKEN (github-actions app) can't be a bypass actor.
+          token: ${{ secrets.RELEASE_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
