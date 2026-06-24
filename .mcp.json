@@ -2,7 +2,7 @@
   "mcpServers": {
     "difftrail": {
       "type": "http",
-      "url": "${DIFFTRAIL_MCP_URL:-https://difftrail.haldunanil.com/api/mcp}"
+      "url": "https://difftrail.haldunanil.com/api/mcp"
     }
   }
 }
