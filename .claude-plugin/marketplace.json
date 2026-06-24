@@ -12,7 +12,7 @@
         "source": "url",
         "url": "https://github.com/difftrail/plugin.git"
       },
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "PR walkthroughs published to the hosted Difftrail app",
       "repository": "https://github.com/difftrail/plugin",
       "license": "MIT"
